@@ -1,0 +1,64 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <title>Are You Okay?</title>
+    <meta name="description" content="Bad day? Feeling low? Come here & let me cheer you up!">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+    
+    <!-- ICONS -->
+    <link rel="apple-touch-icon" sizes="180x180" href="assets/apple-touch-icon.png">
+    <link rel="icon" type="image/png" href="assets/favicon-32x32.png" sizes="32x32">
+    <link rel="icon" type="image/png" href="assets/favicon-16x16.png" sizes="16x16">
+    <link rel="manifest" href="assets/manifest.json">
+    <link rel="mask-icon" href="assets/safari-pinned-tab.svg" color="#E7235E">
+    <meta name="theme-color" content="#ffffff">
+    
+    <!-- CSS -->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.2.0/css/all.css" integrity="sha384-hWVjflwFxL6sNzntih27bfxkr27PmbbK/iSvJ+a4+0owXq79v+lsFkW54bOGbiDQ" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/custom.css">
+    
+    <!-- Add custom styling here -->
+    <style>
+        /* Resize the image */
+        #surprise-image {
+            max-width: 100%; /* Make sure the image fits within its container */
+            height: auto; /* Maintain aspect ratio */
+            max-height: 400px; /* Optional: Set a max height */
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <div class="facts-header">
+            <h1>Is Everything Okay?</h1>
+            <h4>(CLICK ME!) ↓</h4>
+        </div>
+        <div class="facts-zone">
+            <div class="get-facts">
+                <img src="assets/yellow_chat.png" id="yellow-chat" title="Click me ♥">
+            </div>
+            <p>If not, then let me tell you something..</p>
+            <p id="facts"></p> 
+            <!-- Hidden image and text initially -->
+            <p id="surprise-text" style="display: none;">keep pressing the chat button</p>
+            <img id="surprise-image" src="assets/yeree.jpeg" alt="Surprise Image" style="display: none;">
+            <p id="surprise-text" style="display: none;">you look rr cute in that pic frfr</p>
+        </div>
+    </div>
+    
+    <!-- FOOTER -->
+    <footer>
+        <p class="goodbye">Hope I brought a smile to your cute face. If I did, then do keep this when you're feeling down!</p>
+    </footer>
+
+
+    <!-- SCRIPTS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.js" integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60=" crossorigin="anonymous"></script>
+    <script src="js/scripts.js"></script>
+
+</body>
+</html>
